@@ -1,5 +1,4 @@
 package com.example;
-
 /**
  * @author: scott.lin
  * @description:
@@ -11,6 +10,9 @@ public class Math {
         return a*b;
     }
 	public int add(int a,int b){
-        return a+b;
+        return a+b*a;
+    }
+	public int add(int x,int y){
+        return x-y;
     }
 }
