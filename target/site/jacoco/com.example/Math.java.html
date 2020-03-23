@@ -10,7 +10,16 @@
 <span class="fc" id="L10">        return a*b;</span>
     }
 	public int add(int a,int b){
-<span class="nc" id="L13">        return a+b;</span>
+<span class="nc bnc" id="L13" title="All 2 branches missed.">		if(a&gt;b){</span>
+<span class="nc" id="L14">			return a+b*a;</span>
+		}
+		else{
+<span class="nc" id="L17">			return a-b*a;</span>
+		}
+        
+    }
+	public int subtraction(int x,int y){
+<span class="nc" id="L22">        return x-y;</span>
     }
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.5.201910111838</span></div></body></html>

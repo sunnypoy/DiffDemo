@@ -10,9 +10,15 @@ public class Math {
         return a*b;
     }
 	public int add(int a,int b){
-        return a+b*a;
+		if(a>b){
+			return a+b*a;
+		}
+		else{
+			return a-b*a;
+		}
+        
     }
-	public int add(int x,int y){
+	public int subtraction(int x,int y){
         return x-y;
     }
 }
